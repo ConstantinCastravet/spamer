@@ -14,6 +14,7 @@ public class MicrosoftLoginPage extends BasePage {
     private By loginButtonBy = By.xpath("//*[@id=\"idSIButton9\"]");
     private By enterButton = By.xpath("//*[@id=\"submitButton\"]");
 
+
     public MicrosoftLoginPage(WebDriver driver) {
         super(driver);
     }
